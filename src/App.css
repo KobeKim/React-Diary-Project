@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+html, body { margin: 0; padding: 0;}
+*{box-sizing: border-box;}
+.App{  
+  font-family: 'Roboto Mono', monospace;
+}
+ /* A태그 스타일 없애기 */ 
+ A:link {text-decoration:none; }
+ A:visited {text-decoration:none; }
+ A:active {text-decoration:none; }
+ A:hover {text-decoration:none; }
+
+ .loginTitle ,.firstTitle{
+  font-size: 5em;
+  text-align: center;
+  color: black;
+}
+.dot{
+  color: #7D4CDB;
+  font-size: 1em;
+}
+
+.firstScreen,.secondScreen{  
+  position: relative;
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.firstScreen{
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}

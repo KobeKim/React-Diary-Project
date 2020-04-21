@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+.downArrow{    
+    position: absolute;
+    bottom: 2.908333333333334vw;
+}
+.downArrowImg{    
+    display: inline-block;
+    background-size: 1.7361111111111112vw 1.7361111111111112vw;
+    min-width: 2.5333333333333335vw;
+    min-height: 2.5333333333333335vw;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+}
+.secondScreen{
+	font-family: 'Noto Serif KR', serif;
+}
+.second-title{
+    margin-bottom: 110px;
+}
+.loginDot{
+    color: #7D4CDB;
+    font-size: 2em;
+}
+.loginBtn{
+    display: inline-block;
+    border-radius: 6px;
+    padding: 12px 101px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #7D4CDB;
+    transition: all .2s;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: none;
+    position: relative;
+    font-size: 20px;
+	background-color: #7D4CDB;
+}
+.loginBtn:hover{
+    background-color: #fff;
+    border: 2px solid #7D4CDB;
+    color: #7D4CDB;
+}
